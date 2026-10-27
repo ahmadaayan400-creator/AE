@@ -398,16 +398,16 @@ P.P2.Visible = false
 P.P2.ZIndex = 20
 
 local firstTabBtn = addTab("TROLL", P.P1)
-addTab("CREDIT", P.P2)
-addTab("FAKEOUT", P.P3)
-addTab("SPAM", P.P4)
-addTab("BANG", P.P5)
-addTab("EXTRA", P.P6)
-addTab("SHIELD", P.P7)
-addTab("GAME", P.P8)
-addTab("MUSIC", P.P9)
-addTab("OTHER", P.P10)
-addTab("PHONK", P.P11)
+addTab("CREDIT 💳", P.P2)
+addTab("FAKEOUT 👺", P.P3)
+addTab("SPAM 🍌", P.P4)
+addTab("BANG 👽", P.P5)
+addTab("EXTRA ☢️", P.P6)
+addTab("SHIELD 🛡️", P.P7)
+addTab("GAME 🎮", P.P8)
+addTab("MUSIC 🎵", P.P9)
+addTab("OTHER 🛸", P.P10)
+addTab("PHONK 🎶", P.P11)
 
 activeTabBtn = firstTabBtn
 firstTabBtn.BackgroundColor3 = Theme.Accent
@@ -687,17 +687,17 @@ btn("GO TO", P.P1, function()
     local root = _G.getRoot()
     if t and t.Character and t.Character:FindFirstChild("HumanoidRootPart") and root then root.CFrame = t.Character.HumanoidRootPart.CFrame end 
 end)
-btn("HEADSIT", P.P1, function() startTroll("headsit") end)
-btn("FRONT SIT", P.P1, function() startTroll("frontsit") end)
-btn("ANNOY", P.P1, function() startTroll("annoy") end)
-btn("ORBIT", P.P1, function() startTroll("orbit") end)
-btn("DOG PAWS", P.P1, function() startTroll("dogpaws") end)
-btn("SEREER", P.P1, function() startTroll("sereer") end)
-btn("AEROPLANE", P.P1, function() startTroll("aeroplane") end)
-btn("BUTTER PAWS", P.P1, function() startTroll("butterpaws") end)
-btn("LOVE", P.P1, function() loadScript("https://pastebin.com/raw/89740248756697") end)
-btn("KISS", P.P1, function() loadScript("https://pastebin.com/raw/112078433891854") end)
-btn("STOP TROLL", P.P1, function() 
+btn("HEADSIT 👺", P.P1, function() startTroll("headsit") end)
+btn("FRONT SIT 👽", P.P1, function() startTroll("frontsit") end)
+btn("ANNOY 👹", P.P1, function() startTroll("annoy") end)
+btn("ORBIT 🌀", P.P1, function() startTroll("orbit") end)
+btn("DOG PAWS 🐾", P.P1, function() startTroll("dogpaws") end)
+btn("SEREER 🥸", P.P1, function() startTroll("sereer") end)
+btn("AEROPLANE ✈️", P.P1, function() startTroll("aeroplane") end)
+btn("BUTTER PAWS 🥖", P.P1, function() startTroll("butterpaws") end)
+btn("LOVE 💕", P.P1, function() loadScript("https://pastebin.com/raw/89740248756697") end)
+btn("KISS 💋", P.P1, function() loadScript("https://pastebin.com/raw/112078433891854") end)
+btn("STOP TROLL 🛑", P.P1, function() 
     Config.CurrentTroll = nil
     local hum = _G.getHum()
     if hum then hum.Sit = false workspace.CurrentCamera.CameraSubject = hum end 
@@ -740,56 +740,56 @@ end
 
 createCreditLine("ALPHA EMPIRE CREDIT", Theme.AccentLight, 12, true)
 createCreditLine("", Theme.Text, 4)
-createCreditLine("MADE BY - AE_MAX X U", Color3.fromRGB(255, 215, 0), 11, true)
+createCreditLine("MADE BY - AE_MAX X U 🎀👽", Color3.fromRGB(255, 215, 0), 11, true)
 createCreditLine("SNAP - snapuser78432", Theme.SubText, 10)
-createCreditLine("INSTA - none", Theme.SubText, 10)
+createCreditLine("INSTA - NA", Theme.SubText, 10)
 createCreditLine("ROBLOX - @mr_king7809", Theme.SubText, 10)
 createCreditLine("----------------------", Color3.fromRGB(110, 80, 170), 8)
 createCreditLine("HELPER X LEADER", Theme.AccentLight, 11, true)
 createCreditLine("HELPER - AAYANZZ", Color3.fromRGB(255, 190, 235), 10, true)
-createCreditLine("SNAP - AAYANZZ123", Theme.SubText, 10)
-createCreditLine("INSTA - none", Theme.SubText, 10)
+createCreditLine("SNAP - aayanzz123", Theme.SubText, 10)
+createCreditLine("INSTA - NA", Theme.SubText, 10)
 createCreditLine("ROBLOX - AAYAN_ZZZZ", Theme.SubText, 10)
 createCreditLine("----------------------", Color3.fromRGB(110, 80, 170), 8)
-createCreditLine("TOH DER KIS BAAT KI, MERE CHIETOO AAG LAGA DO", Color3.fromRGB(255, 110, 150), 9, true)
+createCreditLine("TOH DER KIS BAAT KI, MERE SHERO 🦁 AAG LAGA DO 👺", Color3.fromRGB(255, 110, 150), 9, true)
 createCreditLine("ALPHA EMPIRE - ON TOP", Color3.fromRGB(255, 230, 120), 11, true)
 
 -----------------------------------------------------------
 -- TAB 3: FAKEOUT
 -----------------------------------------------------------
-btn("PROTECT SHIELD", P.P3, function() loadScript("https://pastebin.com/raw/83qNb86E") end)
-btn("FLING", P.P3, function() loadScript("https://pastebin.com/raw/dGgHDVkx") end)
-btn("VOIDSTRIKER", P.P3, function() loadScript("https://pastebin.com/raw/c3R861CE") end)
-btn("AURA GLITCH", P.P3, function() loadScript("https://pastebin.com/raw/Uq7htgyG") end)
-btn("AE FAKEOUT", P.P3, function() loadScript("https://pastebin.com/raw/6A6YcVFk") end)
-btn("2 FAKEOUT", P.P3, function() loadScript("https://pastebin.com/raw/f6BCKV42") end)
+btn("PROTECT SHIELD 🛡️", P.P3, function() loadScript("https://pastebin.com/raw/83qNb86E") end)
+btn("FLING 👽", P.P3, function() loadScript("https://pastebin.com/raw/dGgHDVkx") end)
+btn("VOIDSTRIKER 🗿", P.P3, function() loadScript("https://pastebin.com/raw/c3R861CE") end)
+btn("AURA GLITCH 🪄", P.P3, function() loadScript("https://pastebin.com/raw/Uq7htgyG") end)
+btn("AE FAKEOUT 👺", P.P3, function() loadScript("https://pastebin.com/raw/6A6YcVFk") end)
+btn("2 FAKEOUT 🌚", P.P3, function() loadScript("https://pastebin.com/raw/f6BCKV42") end)
 
 -----------------------------------------------------------
 -- TAB 4: SPAM
 -----------------------------------------------------------
-btn("AUTO REPLY", P.P4, function() loadScript("https://pastebin.com/raw/GJHtXJDP") end)
-btn("CUSTOM SPAM", P.P4, function() loadScript("https://pastebin.com/raw/0GxxWYGr") end)
-btn("OG SPAM", P.P4, function() loadScript("https://pastebin.com/raw/Nec3d1z6") end)
-btn("SEC CUSTOM SPAM", P.P4, function() loadScript("https://pastebin.com/raw/DLTe92fB") end)
-btn("ALPHA SPAM", P.P4, function() loadScript("https://pastebin.com/raw/d5kpB5Dj") end)
-btn("TARGET SPAM", P.P4, function() loadScript("https://pastebin.com/raw/wwHsSEv2") end)
-btn("FORBID", P.P4, function() loadScript("https://gist.githubusercontent.com/forbidtherobloxscripter/3e1a67cdf3f22192307218825c8469ea/raw/d16fabac096433b08eb63170274af33c8345603e/fm%25201.5.txt") end)
+btn("AUTO REPLY 😋", P.P4, function() loadScript("https://pastebin.com/raw/GJHtXJDP") end)
+btn("CUSTOM SPAM 👺😈", P.P4, function() loadScript("https://pastebin.com/raw/0GxxWYGr") end)
+btn("OG SPAM 👹💢", P.P4, function() loadScript("https://pastebin.com/raw/Nec3d1z6") end)
+btn("SEC CUSTOM SPAM 👺💢", P.P4, function() loadScript("https://pastebin.com/raw/DLTe92fB") end)
+btn("ALPHA SPAM 👽👀", P.P4, function() loadScript("https://pastebin.com/raw/d5kpB5Dj") end)
+btn("3 TARGET SPAM 🌚🛑", P.P4, function() loadScript("https://pastebin.com/raw/wwHsSEv2") end)
+btn("FORBID ☢️💢", P.P4, function() loadScript("https://gist.githubusercontent.com/forbidtherobloxscripter/3e1a67cdf3f22192307218825c8469ea/raw/d16fabac096433b08eb63170274af33c8345603e/fm%25201.5.txt") end)
 
 -----------------------------------------------------------
--- TAB 5: BANG / FUN
+-- TAB 5: BANG 
 -----------------------------------------------------------
-btn("BACK", P.P5, function() loadScript("https://pastefy.app/wdF0Iubo/raw") end)
-btn("PANEL", P.P5, function() loadScript("https://pastebin.com/raw/vz2KXR3s") end)
-btn("FACE", P.P5, function() loadScript("https://pastebin.com/raw/y5S28PKH") end)
-btn("MULTI", P.P5, function() loadScript("https://pastebin.com/raw/FrDEuATX") end)
+btn("BACK BANG 🍌", P.P5, function() loadScript("https://pastefy.app/wdF0Iubo/raw") end)
+btn("BANG PANEL 💢", P.P5, function() loadScript("https://pastebin.com/raw/vz2KXR3s") end)
+btn("MOUTH BANG 👄", P.P5, function() loadScript("https://pastebin.com/raw/y5S28PKH") end)
+btn("MULTI TARGET BANG 😈", P.P5, function() loadScript("https://pastebin.com/raw/FrDEuATX") end)
 
 -----------------------------------------------------------
 -- TAB 6: EXTRA
 -----------------------------------------------------------
-btn("AURA GLOW", P.P6, function() loadScript("https://pastebin.com/raw/u1ihY5R9") end)
+btn("AURA GLOW 🌟", P.P6, function() loadScript("https://pastebin.com/raw/u1ihY5R9") end)
 btn("AUTO FAKEOUT", P.P6, function() loadScript("https://pastebin.com/raw/67KEqzjv") end)
 btn("TELEPORT V1", P.P6, function() loadScript("https://pastebin.com/raw/EUSuniqAF") end)
-btn("SPIDER MAN", P.P6, function() loadScript("https://pastebin.com/raw/wXH4B5UN") end)
+btn("SPIDER MAN 🕸️🕷️", P.P6, function() loadScript("https://pastebin.com/raw/wXH4B5UN") end)
 btn("TELEPORT V2", P.P6, function() loadScript("https://pastebin.com/raw/216FSAFS") end)
 btn("SKY DESTROY", P.P6, function() loadScript("https://rawscripts.net/raw/Universal-Script-sky-destroyer-V2-AXEZZ-110640") end)
 btn("INFINITE YIELD", P.P6, function() loadScript("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source") end)
@@ -807,11 +807,11 @@ btn("ANTI BANG", P.P7, function() loadScript("https://pastebin.com/raw/d4r8JDXz"
 -----------------------------------------------------------
 -- TAB 8: GAME
 -----------------------------------------------------------
-btn("TIC TAC TOE", P.P8, function() loadScript("https://pastebin.com/raw/ZYPzKzBF") end)
-btn("JET DEFENDER", P.P8, function() loadScript("https://pastebin.com/raw/KEjtCtpP") end)
-btn("CANDY BOM", P.P8, function() loadScript("https://pastebin.com/raw/tTCmn7FS") end)
-btn("FLAPPY BIRD", P.P8, function() loadScript("https://pastebin.com/raw/BNqYv7N6") end)
-btn("CANDY CRUSH", P.P8, function() loadScript("https://pastebin.com/raw/gSW5NzsZ") end)
+btn("TIC TAC TOE 🎮", P.P8, function() loadScript("https://pastebin.com/raw/ZYPzKzBF") end)
+btn("JET DEFENDER ✈️", P.P8, function() loadScript("https://pastebin.com/raw/KEjtCtpP") end)
+btn("CANDY BOM 🍭", P.P8, function() loadScript("https://pastebin.com/raw/tTCmn7FS") end)
+btn("FLAPPY BIRD 🕊️", P.P8, function() loadScript("https://pastebin.com/raw/BNqYv7N6") end)
+btn("CANDY CRUSH 🥰", P.P8, function() loadScript("https://pastebin.com/raw/gSW5NzsZ") end)
 
 -----------------------------------------------------------
 -- TAB 9: MUSIC PLAYER
